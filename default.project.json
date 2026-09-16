@@ -1,0 +1,30 @@
+{
+  "name": "BirthdayQuest",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "GameConfig": {
+        "$path": "src/shared/GameConfig.lua"
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "BirthdayQuest": {
+        "$path": "src/server/BirthdayQuest.server.lua"
+      }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "BirthdayQuestUI": {
+          "$path": "src/client/BirthdayQuestUI.client.lua"
+        }
+      }
+    }
+  }
+}
